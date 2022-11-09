@@ -1,24 +1,19 @@
-# test-task-furniture-store-vue
+# Тестовое задание
 
-## Project setup
-```
-npm install
-```
+Ссылка на выполненный во VUE проект: https://zamdikhanov.github.io/test-task-furniture-store-vue/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Задание:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Верстка по макету.
+- Mobile First
+- Pixel Perfect
+- Анимация
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Особенности:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Одна страница со слайдером
+- Модальное диалоговое окно с поэтапным заполнением заказа
+
+# Примечание
+
+Это второй вариант (для изучения), первый был выполнен в React https://zamdikhanov.github.io/test-task-furniture-store/
