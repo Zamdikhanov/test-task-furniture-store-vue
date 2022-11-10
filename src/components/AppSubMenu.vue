@@ -6,12 +6,14 @@
         class="submenu__linkContainer"
         v-bind:key="itemObj.linkText"
       >
-        <router-link :to="itemObj.linkUrl" custom v-slot="{ navigate, href }">
+        <router-link :to="itemObj.linkUrl" custom v-slot="{ navigate }">
           <a
             href="#"
             @click="navigate"
             class="submenu__link"
-            :class="{ submenu__link_active: $route.path.indexOf(href) !== -1 }"
+            :class="{
+              submenu__link_active: $route.path.indexOf(itemObj.linkUrl) !== -1,
+            }"
           >
             {{ itemObj.linkText }}
           </a>
